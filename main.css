@@ -1,0 +1,129 @@
+body {
+    background-color: #aad4cf;
+    font-family: sans-serif;
+}
+h2 { 
+    margin: 10px;
+    padding-top: 10px;
+}
+.inner{
+    background-color: #d4e9e7;
+    width: 1030px;
+    margin: auto;
+}
+
+.contact{
+    outline-color: black;
+}
+#head-star{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+header {
+    position: relative;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#txt{
+    color: white;
+    font-size: 65px;
+    font-family: sans-serif;
+}
+
+nav li{
+    display: inline;
+}
+
+article img{
+  width: 200px;  
+  float: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+    
+}
+.starfish-img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.home a {
+    color: black;
+    font-size: 45px;
+    text-decoration: none;
+    padding-right: 10%;
+    padding-left: 5%;
+    border-right: 2px solid black;
+   
+}
+.story a {
+    color: black;
+    font-size: 45px;
+    text-decoration: none;
+    padding-right: 10%;
+    padding-left: 5%;
+    border-right: 2px solid black;
+}
+
+.contacts a {
+    color: black;
+    font-size: 45px;
+    text-decoration: none;
+    padding-left: 5%;
+}
+
+p{
+    text-wrap: wrap;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 10px;
+}
+
+footer{
+    text-align: right;
+    padding: 5px;
+}
+
+.contact{
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+input[type=text]{
+    width: 90%;
+    padding: 10px;
+    margin: 15px;
+    resize: vertical;
+}
+
+input[type=radio]{
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+
+.button {
+    background-color: #d4e9e7;
+    border: 1px solid black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+  }
+
+  .button a{
+    text-decoration: none;
+    color: black;
+  }
